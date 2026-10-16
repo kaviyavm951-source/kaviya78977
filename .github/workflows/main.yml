@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
